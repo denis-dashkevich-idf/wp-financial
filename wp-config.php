@@ -47,6 +47,12 @@ define( 'DB_CHARSET', 'utf8' );
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
 
+// enable log on local
+if ($_SERVER['HTTP_HOST'] == 'financial.local') {
+    define( 'WP_DEBUG', true );
+    define( 'WP_DEBUG_LOG', true );
+}
+
 /**#@+
  * Уникальные ключи и соли для аутентификации.
  *
@@ -56,6 +62,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
+
 define( 'AUTH_KEY',         'впишите сюда уникальную фразу' );
 define( 'SECURE_AUTH_KEY',  'впишите сюда уникальную фразу' );
 define( 'LOGGED_IN_KEY',    'впишите сюда уникальную фразу' );

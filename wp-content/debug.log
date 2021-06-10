@@ -1,0 +1,53 @@
+[07-Jun-2021 16:36:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_sty() in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\functions.php:6
+Stack trace:
+#0 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(292): theme_name_scripts('')
+#1 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\OS\OSPanel\domains\financial.local\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\OS\OSPanel\domains\financial.local\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\OS\OSPanel\domains\financial.local\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\OS\OSPanel\domains\financial.local\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 C:\OS\OSPanel\domains\financial.l in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\functions.php on line 6
+[07-Jun-2021 16:36:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_sty() in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\functions.php:6
+Stack trace:
+#0 C:\OS\OSPanel\domains\financial.localHook->apply_filters(NULL, Array)
+#2 C:\OS\OSPanel\domains\financial.local\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\OS\OSPanel\domains\financial.local\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\OS\OSPanel\domains\financial.local\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\OS\OSPanel\domains\financial.local\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 C:\OS\OSPanel\domains\financial.l in C:\OS\\wp-includes\class-wp-hook.php(292): theme_name_scripts('')
+#1 C:\OS\OSPanel\domains\financial.local\wp-includes\class-wp-hook.php(316): WP_OSPanel\domains\financial.local\wp-content\themes\financial\functions.php on line 6
+[09-Jun-2021 16:40:25 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 24
+[09-Jun-2021 16:41:06 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 16:41:06 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 16:41:06 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 16:42:09 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 16:42:09 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 16:42:09 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/facebook.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:30 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/instagram.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:31 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:31 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[09-Jun-2021 20:12:31 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/twitter.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/facebook.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/instagram.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
+[10-Jun-2021 16:10:18 UTC] PHP Warning:  file_get_contents(https://financial.local/wp-content/uploads/2021/06/twitter.svg): failed to open stream: operation failed in C:\OS\OSPanel\domains\financial.local\wp-content\themes\financial\footer.php on line 19
